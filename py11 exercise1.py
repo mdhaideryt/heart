@@ -1,11 +1,5 @@
-d1={"Pen":"an object that a hand can hold to write something on paper","Man":"a male human being","Woman":
-    "a female human being","Mutable":"that can be changed","Immutable":"that cannot be changed"}
-print("Enter a word to know its meaning")
-word=input()
-b=word.capitalize()
-print(b,"=",d1[b])
-import time
 
+import time
 
 import turtle
 t=turtle.Turtle()
@@ -21,4 +15,3 @@ t.circle(90,200)   #instead of 200 ,360 will make a full circle and -90 will be 
 t.forward(180)
 t.end_fill()
 time.sleep(3)
-
